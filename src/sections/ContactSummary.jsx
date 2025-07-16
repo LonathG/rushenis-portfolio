@@ -8,16 +8,17 @@ const ContactSummary = () => {
   const items = [
     "Innovation",
     "Precision",
-    "Trust",
+    "Empathy",
     "Collaboration",
     "Excellence",
   ];
+
   const items2 = [
-    "contact us",
-    "contact us",
-    "contact us",
-    "contact us",
-    "contact us",
+    "Get in touch",
+    "Let’s connect",
+    "Say hello",
+    "Reach out",
+    "Contact me",
   ];
 
   useGSAP(() => {

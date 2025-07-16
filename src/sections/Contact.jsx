@@ -5,15 +5,16 @@ import { socials } from "../constants";
 import gsap from "gsap";
 
 const Contact = () => {
-  const text = `Got a question, how or project Idea?
-    WE’D love to hear from you and discus further!`;
-  const items = [
-    "just imagin, I code",
-    "just imagin, I code",
-    "just imagin, I code",
-    "just imagin, I code",
-    "just imagin, I code",
-  ];
+    const text = `Got a question or project idea?  
+    Let’s connect and chat!`;
+
+    const items = [
+      "Made with passion by Webminds",
+      "Crafted for excellence by Webminds",
+      "Designed & built by Webminds",
+      "Powered by Webminds innovation",
+      "Webminds — shaping digital futures",
+    ];
   useGSAP(() => {
     gsap.from(".social-link", {
       y: 100,
@@ -34,7 +35,7 @@ const Contact = () => {
     >
       <div>
         <AnimatedHeaderSection
-          subTitle={"You Dream It, I Code it"}
+          subTitle={"Crafting Your Ideas into Reality"}
           title={"Contact"}
           text={text}
           textColor={"text-white"}
@@ -46,14 +47,14 @@ const Contact = () => {
               <h2>E-mail</h2>
               <div className="w-full h-px my-2 bg-white/30" />
               <p className="text-xl tracking-wider lowercase md:text-2xl lg:text-3xl">
-                JohnDoe@gmail.com
+                rushenibotheju@gmail.com
               </p>
             </div>
             <div className="social-link">
               <h2>Phone</h2>
               <div className="w-full h-px my-2 bg-white/30" />
               <p className="text-xl lowercase md:text-2xl lg:text-3xl">
-                +33 7 12 12 32 12
+                +94 742 431 891
               </p>
             </div>
             <div className="social-link">
