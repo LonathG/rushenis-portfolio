@@ -15,6 +15,9 @@ const Contact = () => {
       "Powered by Webminds innovation",
       "Webminds — shaping digital futures",
     ];
+
+    const marqueeLink = "https://webmindsdesigns.com/";
+
   useGSAP(() => {
     gsap.from(".social-link", {
       y: 100,
@@ -77,7 +80,8 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <Marquee items={items} className="text-white bg-transparent" />
+    <a href={marqueeLink} target="_blank" rel="noopener noreferrer" className="w-full">
+      <Marquee items={items} className="text-white bg-transparent cursor-pointer" /></a>    
     </section>
   );
 };
