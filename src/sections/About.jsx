@@ -11,10 +11,10 @@ const About = () => {
 
   const aboutText = `Passionate about crafting fast, intuitive interfaces—from pixel-perfect wireframes to seamless interactive experiences. Every design choice is a promise: delight that users feel.
   When I’m not creating:
-  🎨 Experimenting with new design tools and techniques
-  🎥 Sharing UX/UI tips on Twitch and YouTube — because great design should be shared
-  🧗‍♂️ Rock climbing (solving challenges both on and off the screen)
-  🎸 Jamming to tunes while refining prototypes (multitasking at its best)`;
+  ● Experimenting with new design tools and techniques
+  ● Sharing UX/UI tips on Twitch and YouTube — because great design should be shared
+  ● Rock climbing (solving challenges both on and off the screen)
+  ● Jamming to tunes while refining prototypes (multitasking at its best)`;
 
   const imgRef = useRef(null);
   useGSAP(() => {

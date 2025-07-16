@@ -6,19 +6,19 @@ import gsap from "gsap";
 const ContactSummary = () => {
   const containerRef = useRef(null);
   const items = [
-    "Innovation",
-    "Precision",
-    "Empathy",
-    "Collaboration",
-    "Excellence",
+    "Say Hello",
+    "Say Hello",
+    "Say Hello",
+    "Say Hello",
+    "Say Hello",
   ];
 
   const items2 = [
-    "Get in touch",
     "Let’s connect",
-    "Say hello",
-    "Reach out",
-    "Contact me",
+    "Let’s connect",
+    "Let’s connect",
+    "Let’s connect",
+    "Let’s connect",
   ];
 
   useGSAP(() => {

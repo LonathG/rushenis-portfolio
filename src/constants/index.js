@@ -113,7 +113,7 @@ export const projects = [
   },
   {
   id: 3,
-  name: "KettleX - Intelligent product website",
+  name: "KettleX - Intelligent Product Website",
   description:
   "A sleek, modern product website for an AI-powered smart kettle, showcasing features like automation, voice control, and energy efficiency through interactive UI and smooth animations.",
   href: "",
@@ -145,7 +145,7 @@ export const projects = [
   },
   {
     id: 5,
-    name: "Traffic Tours - Immersive travel website",
+    name: "Traffic Tours - Immersive Travel Website",
     description:
     "An immersive travel experience platform featuring dynamic visuals, curated destinations, and intuitive navigation—designed to inspire exploration and simplify trip planning.",
     href: "",
@@ -161,7 +161,7 @@ export const projects = [
   },
    {
     id: 6,
-    name: "Lolins Luxe Hair Studio",
+    name: "Lolins Luxe Hair Studio Website",
   description:
     "A stylish online presence for a premium hair salon, featuring service booking, gallery showcase, and a smooth, mobile-friendly user experience.",
     href: "",

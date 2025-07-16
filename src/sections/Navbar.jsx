@@ -106,7 +106,7 @@ const Navbar = () => {
             (section, index) => (
               <div key={index} ref={(el) => (linksRef.current[index] = el)}>
                 <Link
-                  className="transition-all duration-300 cursor-pointer hover:text-white"
+                  className="transition-all duration-300 cursor-pointer hover:text-gold"
                   to={`${section}`}
                   smooth
                   offset={0}

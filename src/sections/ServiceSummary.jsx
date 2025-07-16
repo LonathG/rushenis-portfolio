@@ -50,9 +50,9 @@ const ServiceSummary = () => {
     id="title-service-3"
     className="flex items-center justify-center gap-3 -translate-x-48"
   >
-    <p>UX Design</p>
+    <p>UX</p>
     <div className="w-10 h-1 md:w-32 bg-gold" />
-    <p className="italic">UI Design</p>
+    <p className="italic">UI</p>
     <div className="w-10 h-1 md:w-32 bg-gold" />
     <p>Interaction</p>
   </div>
