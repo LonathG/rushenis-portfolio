@@ -5,18 +5,18 @@ import { socials } from "../constants";
 import gsap from "gsap";
 
 const Contact = () => {
-    const text = `Got a question or project idea?  
+  const text = `Got a question or project idea?  
     Let’s connect and chat!`;
 
-    const items = [
-      "Made with passion by Webminds",
-      "Crafted for excellence by Webminds",
-      "Designed & built by Webminds",
-      "Powered by Webminds innovation",
-      "Webminds — shaping digital futures",
-    ];
+  const items = [
+    "Made with passion by Webminds",
+    "Crafted for excellence by Webminds",
+    "Designed & built by Webminds",
+    "Powered by Webminds innovation",
+    "Webminds — shaping digital futures",
+  ];
 
-    const marqueeLink = "https://webmindsdesigns.com/";
+  const marqueeLink = "https://webmindsdesigns.com/";
 
   useGSAP(() => {
     gsap.from(".social-link", {
@@ -31,6 +31,7 @@ const Contact = () => {
       },
     });
   }, []);
+
   return (
     <section
       id="contact"
@@ -49,16 +50,22 @@ const Contact = () => {
             <div className="social-link">
               <h2>E-mail</h2>
               <div className="w-full h-px my-2 bg-white/30" />
-              <p className="text-xl tracking-wider lowercase md:text-2xl lg:text-3xl">
+              <a
+                href="mailto:rushenibotheju@gmail.com"
+                className="text-xl tracking-wider lowercase md:text-2xl lg:text-3xl hover:underline"
+              >
                 rushenibotheju@gmail.com
-              </p>
+              </a>
             </div>
             <div className="social-link">
               <h2>Phone</h2>
               <div className="w-full h-px my-2 bg-white/30" />
-              <p className="text-xl lowercase md:text-2xl lg:text-3xl">
+              <a
+                href="tel:+94742431891"
+                className="text-xl lowercase md:text-2xl lg:text-3xl hover:underline"
+              >
                 +94 742 431 891
-              </p>
+              </a>
             </div>
             <div className="social-link">
               <h2>Social Media</h2>
@@ -68,7 +75,7 @@ const Contact = () => {
                   <a
                     key={index}
                     href={social.href}
-                    className="text-xs leading-loose tracking-wides uppercase md:text-sm hover:text-white/80 transition-colors duration-200"
+                    className="text-xs leading-loose tracking-widest uppercase md:text-sm hover:text-white/80 transition-colors duration-200"
                   >
                     {"{ "}
                     {social.name}
@@ -80,8 +87,19 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    <a href={marqueeLink} target="_blank" rel="noopener noreferrer" className="w-full">
-      <Marquee items={items} className="text-white bg-transparent cursor-pointer" /></a>    
+
+      {/* Marquee wrapped in single clickable link */}
+      <a
+        href={marqueeLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="w-full"
+      >
+        <Marquee
+          items={items}
+          className="text-white bg-transparent cursor-pointer"
+        />
+      </a>
     </section>
   );
 };
